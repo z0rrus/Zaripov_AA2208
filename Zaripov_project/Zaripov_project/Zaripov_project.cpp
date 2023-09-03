@@ -6,6 +6,15 @@
 int main()
 {
     std::cout << "Hello World!\n";
+
+    char symbol;
+
+    std::cout << "Enter any character: ";
+    std::cin >> symbol;
+
+    std::cout << "You have entered a character: " << symbol << std::endl;
+
+    return 0;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
